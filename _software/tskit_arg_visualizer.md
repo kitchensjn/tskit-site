@@ -8,6 +8,7 @@ publication: https://doi.org/10.1093/bioadv/vbaf302
 category: analyse
 python_package: tskit_arg_visualizer
 priority: 17
+force_show_title: true
 code_snippet: |2
   d3arg = tskit_arg_visualizer.D3ARG.from_ts(ts)
   d3arg.draw()
